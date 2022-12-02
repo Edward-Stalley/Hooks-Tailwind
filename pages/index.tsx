@@ -74,13 +74,7 @@ export default function Home() {
               placeholder="Type Here..."
             />
             <h4 className="my-10 text-slate-200 bg-slate-700 p-3 rounded">{`Time Remaining: ${timeRemaining} seconds`}</h4>
-            <button
-              disabled={running ? true : false}
-              onClick={handleRunning}
-              className={`${running ? "bg-red-300" : "bg-slate-200"} text-slate-700 p-3 rounded `}
-            >
-              {running ? "Start Typing!" : "Start Game"}
-            </button>
+
             {/* <button onClick={reset} className="mt-10 bg-slate-900 text-slate-100 p-3 rounded ">
               Reset
             </button> */}
